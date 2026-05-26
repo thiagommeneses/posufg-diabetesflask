@@ -43,5 +43,11 @@ Para realizar um novo treinamento do modelo, basta executar o arquivo `ml/train.
 * Pandas
 * joblib
 
+
+#### Observação:
+O projeto pode apresentar avisos de compatibilidade do scikit-learn
+caso o modelo treinado tenha sido gerado em outra versão da biblioteca.
+Isso não impede a execução da aplicação.
+
 ---
 
